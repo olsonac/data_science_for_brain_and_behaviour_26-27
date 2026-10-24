@@ -25,8 +25,7 @@ test = {
         },
         {
           'code': r"""
-          >>> n_bees
-          4
+          >>> assert n_bees == 4
           """,
           'hidden': False,
           'locked': False

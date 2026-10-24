@@ -44,8 +44,7 @@ test = {
         {
           'code': r"""
           >>> # There should be four instances of 'be' in the quote.
-          >>> np.count_nonzero(bees)
-          4
+          >>> assert np.count_nonzero(bees) == 4
           """,
           'hidden': False,
           'locked': False
